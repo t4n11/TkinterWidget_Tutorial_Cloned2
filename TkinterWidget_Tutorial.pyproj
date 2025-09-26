@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>67c63b35-cd3a-4ffc-8d96-79c25b9fc951</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>TkinterWidget_Tutorial.py</StartupFile>
+    <StartupFile>EXERCISE\Treeview_Exerise.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,10 +24,17 @@
     <Compile Include="EXERCISE\Button_Exercise.py" />
     <Compile Include="EXERCISE\Label_Exercise.py" />
     <Compile Include="EXERCISE\TextEntry_Exercise.py" />
+    <Compile Include="EXERCISE\Treeview_Exerise.py" />
     <Compile Include="TkinterWidget_Tutorial.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="EXERCISE\" />
+    <Folder Include="EXERCISE\assets\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="EXERCISE\assets\city.png" />
+    <Content Include="EXERCISE\assets\female.png" />
+    <Content Include="EXERCISE\assets\male.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
